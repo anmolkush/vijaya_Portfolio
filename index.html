@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="images/icon.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <style>
+        body {
+            background: rgb(12, 27, 12);
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+
+        #change::before {
+    content: "a dancer!";
+    color: orange;
+    animation: animate infinite 4.8s;
+    padding-left: 10px;
+    font-family: 'Pacifico', cursive; /* Change font family to Pacifico */
+    font-size: 32px; /* Increase font size for emphasis */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for depth */
+}
+
+@keyframes animate {
+    10% {
+        content: "a choreographer!";
+        color: orange;
+    }
+
+    80% {
+        content: "an artist!";
+        color: orange;
+    }
+}
+
+
+        /* Add the same background color as the Bootstrap navbar */
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="topnav" id="myTopnav">
+          <a class="navbar-brand" href="index.html">Dance</a>
+
+            <!-- <a href="#news">News</a>
+
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a> -->
+            <a class="" aria-current="page" href="index.html">Home</a>
+                  <a class="nav-link" href="styles.html">Styles</a>
+                  <a class="nav-link" href="classes.html">Classes</a>
+                  <a class="nav-link" href='contact_us.html'>Contact Me</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+          <div class="hero-image">
+            <div class="hero-text">
+            <i><h1 id="chandu">I am Vijaya Shukla</h1>
+              <h2>I am<span id="change"></span></h2></i>
+              <button id="greesh" onclick="location.href='contact_us.html';">Join now</button>
+            </div>
+            </div>
+            <br/>
+          <div class="container-fluid">
+            <p id="dance">
+              Welcome to the vibrant world of Vijaya Shukla, where movement is our language, and expression knows no bounds.Hello ,My name is Vijaya Shukla, and I am a passionate dancer, choreographer, and yoga instructor. With every graceful movement, I weave stories of emotion and inspiration, inviting others to join me on a transformative journey of self-discovery. As a dedicated educator, I empower my students to unlock their full potential, guiding them towards mastery and self-expression. In addition to my love for movement, I am also an avid photographer, capturing the beauty of the world around me in moments frozen in time. Join me as we explore the limitless possibilities of creativity and embark on a journey of growth and discovery together.
+              <br/>
+              <i>"Dance to express, not to impress !"</i>
+            </p>
+          </div>
+          <br/>
+          <!-- <div id="gallery" class="container-fluid">     
+          <h2><i>Dance your hearts out !</i></h2>
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+          <br/>
+          <img src="images/salsa.jpg" class="rounded float-left dance-image" alt="Salsa">
+          <img src="images/classical.jpg" class="rounded float-right dance-image" alt="Bharthanatyam">
+          <img src="images/dance.jpg" class="rounded float-right dance-image" alt="Ballet">
+          -->
+          <br/>
+          <h2 id="font"><i>Dance your hearts out !</i></h2>
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+          <br/>
+          <div id="carouselExampleControls" class="carousel slide container-fluid" data-ride="carousel">
+            <div class="carousel-inner slide-image">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/WhatsApp Image 2024-04-09 at 21.18.44.jpeg" alt="First slide">
+              </div>
+              <div class="carousel-item slide-image">
+                <img class="d-block w-100" src="images/WhatsApp Image 2024-04-09 at 21.19.00.jpeg" alt="Second slide">
+              </div>
+              <div class="carousel-item slide-image">
+                <img class="d-block w-100" src="images/WhatsApp Image 2024-04-09 at 21.19.29 (1).jpeg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only"></span>
+            </a>
+          </div>
+          <audio controls autoplay hidden>
+            <source src="./music/celtic-spirits-irish-bodhran-drums-and-classic-guitar-2964.mp3">
+            <source src="./music/celtic-spirits-irish-bodhran-drums-and-classic-guitar-2964.mp3">
+            Turn on the audio!
+          </audio>
+          <br/>
+          <br/>
+          <br/>
+          <div id="copyright">
+            <br/>
+            copyright 2024 &#169
+            All rights reserved by <a href="#">Vijaya Shukla</a>     
+            <br/>
+          </div>
+          <br/>
+    </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
